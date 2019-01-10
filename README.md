@@ -6,7 +6,7 @@ It's based on Electron and currently only tested (and built) on Mac OS Mojave.
 This is a prototype that is distributed without any waranty. 
 Feel free to file an issue though if you test it and find something wacky.
 ### How to use: ✨
-1. Download the application from the **Releases** tab
+1. Download the application [from the **Releases** tab](https://github.com/jwktje/mideo/releases)
 2. Run it on a Mac computer
 3. Open an h264/MP4 file as the video
 4. (optionally) change some parameters in the menu
