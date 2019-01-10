@@ -38,7 +38,7 @@ Anything above 127 outputs as 127.
 **output_name** is a dropdown allowing you to set where the Midi needs to be outputted to. 
 
 
-###Virtual Midi bus
+### Virtual Midi bus
 To use Mideo locally and send data to a DAW directly, you can use a virtual Midi bus.
 An example on how to use these with Ableton on a Mac can be found here:
 
