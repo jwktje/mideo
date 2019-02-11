@@ -1,18 +1,25 @@
 {
   "name": "Mideo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Turn video into Midi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "dist-win": "electron-builder -w --x64"
   },
   "author": "Jan Willem Kolkman",
   "license": "ISC",
   "build": {
-    "appId": "com.electron.mideo"
+    "appId": "com.electron.mideo",
+    "win": {
+      "target": ["portable"]
+    },
+    "portable": {
+      "artifactName": "mideo_portable.exe"
+    }
   },
   "devDependencies": {
     "electron-builder": "^20.38.4"
